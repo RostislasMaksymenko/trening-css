@@ -1,0 +1,129 @@
+body *{
+    margin: 0;
+}
+
+.body {
+    box-sizing: border-box;
+    margin: auto;
+    padding: 0;
+}
+
+.review {
+    background-color: #5a3733;
+    background-size: cover;
+    padding: 90 24px;
+    text-align: center;
+}
+/*
+.container {
+    width: 1170px;
+    margin: auto;
+}
+*/
+.review_container {
+    display: inline-block;
+    flex-wrap: wrap;
+    min-width: 270px;
+    max-width: 800px;
+}
+
+.review__header {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.header__first-header {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    color: rgb(247, 189, 0);
+    letter-spacing: 1.4px;
+}
+
+.header__second-header {
+    font-family: "Signika Negative", sans-serif;
+    font-size: 38px;
+    color: white;
+}
+
+.lines {
+    background-color: rgb(247, 189, 0);
+    height: 4px;
+    width: 33px;
+}
+
+.header__text {
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+    color: white;
+}
+
+.review__content {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+.container__review {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 555px;
+    height: 480px;
+    background-color: rgb(102, 59, 54);
+}
+
+.review__photo {
+    width: 70px;
+    height: 70px;
+}
+
+.review__name {
+    margin-top: 20px;
+    font-size: 25px;
+    font-family: "Signika Negative", sans-serif;
+    color: #f7bd00;
+    font-weight: 600;
+}
+
+.review__text {
+    margin-top: 15px;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 350;
+    line-height: 27px;
+}
+
+.review__data {
+    margin-top: 40px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    color: white;
+    letter-spacing: 1.4px;
+}
+
+
+@media (min-width: 320px){
+    .review {
+        padding: 90px 24px;
+    }
+}
+
+@media (min-width: 768px) {
+    .review {
+        padding: 105px 32px;
+    }
+}
+
+@media (min-width: 992px) {
+    .review {
+        padding: 120px 40px;
+    }
+}
+
+
+
+
